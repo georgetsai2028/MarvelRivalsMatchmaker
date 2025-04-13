@@ -4,7 +4,7 @@
       "region": "NA",
       "voiceChat": true,
       "gameType": "Competitive",
-      "rank": "Diamond",
+      "rank": ["/diamondrank.png"],
       "players": 3,
       "maxPlayers": 6,
       "playerAvatars": [

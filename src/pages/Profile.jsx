@@ -5,7 +5,7 @@ const mockUserData = {
   avatarUrl: "/spidey.png",
   rank: "Gold",
   teamsJoined: ["Avengers", "X-Men", "Fantastic Four"],
-  achievements: ["MVP of the Month", "Top Scorer"],
+  achievements: ["🏆 MVP of the Month", "🎖️ Top Scorer"],
   playerStats: {
     gamesPlayed: 150,
     wins: 100,

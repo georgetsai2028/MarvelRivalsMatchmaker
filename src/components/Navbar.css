@@ -5,7 +5,7 @@
     align-items: center; /* Center content horizontally */
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(30, 30, 80, 0.6)); /* Dark space gradient */
     color: #fff;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Light glow effect */
   }

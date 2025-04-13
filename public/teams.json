@@ -31,5 +31,36 @@
         "/lunasnow.png",
         "/cloakanddagger.png"
       ]
+    },
+    {
+      "id": 3,
+      "region": "ASIA",
+      "voiceChat": true,
+      "gameType": "Competitive",
+      "rank": "/goldrank.png",
+      "rankName": "Gold",
+      "players": 1,
+      "maxPlayers": 3,
+      "playerAvatars": [
+        "/hulk.png",
+        "/peniparker.png"
+      ]
+    },
+    {
+      "id": 4,
+      "region": "NA",
+      "voiceChat": false,
+      "gameType": "Casual",
+      "rank": "/platinumrank.png",
+      "rankName": "Platinum",
+      "players": 1,
+      "maxPlayers": 6,
+      "playerAvatars": [
+        "/invisiblewoman.png",
+        "/humantorch.png",
+        "/thepunisher.png",
+        "/rocketraccoon.png",
+        "/starlord.png"
+      ]
     }
   ]

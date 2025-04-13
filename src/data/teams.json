@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "region": "NA",
+      "voiceChat": true,
+      "gameType": "Competitive",
+      "rank": "Diamond",
+      "players": 3,
+      "maxPlayers": 6,
+      "playerAvatars": [
+        "avatar1.png",
+        "avatar2.png",
+        "avatar3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "region": "EU",
+      "voiceChat": false,
+      "gameType": "Casual",
+      "rank": "Silver",
+      "players": 1,
+      "maxPlayers": 6,
+      "playerAvatars": [
+        "avatar4.png"
+      ]
+    }
+  ]

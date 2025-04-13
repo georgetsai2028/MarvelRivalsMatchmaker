@@ -3,7 +3,7 @@ body {
     background-size: cover; /* Cover the entire body area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 100vh; /* Ensure the background covers the entire viewport height */
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
     margin: 0; /* Remove default margin */
   }
 

@@ -40,7 +40,7 @@ export default function TeamFinder() {
   return (
     <>
       <h1>Team Finder</h1>
-      <TeamFilters onFilterChange={handleFilterChange} /> {/* Add the filter component */}
+      <TeamFilters onFilter={handleFilterChange} /> {/* Add the filter component */}
       <div style={{ display: 'grid', gap: '1rem', padding: '1rem' }}>
   {filteredTeams.map((team) => (
     <Link

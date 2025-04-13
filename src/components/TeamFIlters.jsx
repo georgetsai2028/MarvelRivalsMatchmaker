@@ -7,10 +7,18 @@ export default function TeamFilters({ onFilter }) {
   const [rank, setRank] = useState('');
   const [voiceChat, setVoiceChat] = useState('');
   const [maxPlayers, setMaxPlayers] = useState('');
-
+  
   const handleFilterChange = () => {
-    onFilter({ region, gameType, rank, voiceChat, maxPlayers });
+    onFilter({
+      region,
+      gameType,
+      rank,
+      voiceChat: voiceChat === 'Yes' ? true : voiceChat === 'No' ? false : '',
+      maxPlayers: maxPlayers ? parseInt(maxPlayers) : ''
+    });
   };
+
+
 
   return (
     <div className="team-filters">

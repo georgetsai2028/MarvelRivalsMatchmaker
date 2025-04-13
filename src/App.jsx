@@ -1,5 +1,4 @@
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import TeamFinder from './pages/TeamFinder';
@@ -12,14 +11,13 @@ function App() {
 
   return (
     <>
-    <Router>
+    <h1>hello</h1>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/teams" element={<TeamFinder />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
-    </Router>
     </>
   );
 }

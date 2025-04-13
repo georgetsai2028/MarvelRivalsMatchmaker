@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import TeamFinder from './pages/TeamFinder';
 import Profile from './pages/Profile';
+import TeamDetailsPage from './pages/TeamDetailsPage';
 
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/teams" element={<TeamFinder />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/teams/:id" element={<TeamDetailsPage />} />
       </Routes>
     </>
   );

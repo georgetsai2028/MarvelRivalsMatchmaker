@@ -19,7 +19,7 @@ export default function Home() {
         <div className="stars3"></div>
 
       <footer className="home-footer">
-        <p>🌌 Unite. Strategize. Dominate.</p>
+        <p>🌌 Unite. Strategize. Dominate</p>
       </footer>
     </div>
     </>

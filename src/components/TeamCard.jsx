@@ -5,7 +5,7 @@ import './TeamCard.css';
 
 export default function TeamCard({ team }) {
   return (
-    <div className="team-card" style={{ display: 'flex', gap: '1rem', border: '1px solid #ccc', padding: '1rem', borderRadius: '10px', flexDirection: 'column' }}>
+    <div className="team-card">
       {/* Team Info at the Top */}
       <div className="team-header" style={{ marginBottom: '10px' }}>
         <TeamInfoBar region={team.region} voiceChat={team.voiceChat} gameType={team.gameType} />

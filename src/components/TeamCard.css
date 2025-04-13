@@ -1,19 +1,28 @@
+/* Space-themed Team Card */
 .team-card {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     gap: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #6a0dad; /* Purple border to fit space theme */
     padding: 1rem;
-    border-radius: 10px;
-    background-color: grey;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(30, 30, 80, 0.6)); /* Dark space gradient */
+    color: #fff; /* White text for contrast */
+    width: 100%; /* Adjusted to full width of its container */
+    max-width: 100%; /* Limit max width to match TeamFilters */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Glow effect */
   }
   
+  /* Team Header (Title and Actions) */
   .team-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.2rem;
+    color: #e0e0e0; /* Light gray text */
   }
   
+  /* Styling for the player avatars in a row */
   .pie-circles {
     display: flex; /* Align avatars in a row */
     gap: 0.5rem;
@@ -23,8 +32,11 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    border: 2px solid #fff; /* White border for avatars */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* Glow effect on avatars */
   }
   
+  /* Styling for the team information section */
   .team-info {
     display: flex;
     flex-direction: column;
@@ -35,4 +47,26 @@
   
   .team-info p {
     margin: 0;
+    font-size: 0.9rem;
+    color: #bbb; /* Subtle gray color for text */
+  }
+  
+  .team-info p strong {
+    color: #e0e0e0; /* Bold text for better contrast */
+  }
+  
+  /* Space-themed button for actions (if any) */
+  .team-card button {
+    padding: 0.5rem 1rem;
+    background-color: #6a0dad; /* Purple button background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .team-card button:hover {
+    background-color: #8a2be2; /* Hover effect */
   }

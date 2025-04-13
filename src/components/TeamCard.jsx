@@ -1,6 +1,7 @@
 import PieCircles from './PieCircles';
 import TeamInfoBar from './TeamInfoBar';
 import TeamDetails from './TeamDetails';
+import './TeamCard.css';
 
 export default function TeamCard({ team }) {
   return (

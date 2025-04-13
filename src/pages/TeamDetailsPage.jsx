@@ -32,7 +32,7 @@ export default function TeamDetailsPage() {
       <div className="team-meta">
         <p><strong>Region:</strong> {team.region}</p>
         <p><strong>Game Type:</strong> {team.gameType}</p>
-        <p><strong>Rank:</strong> {team.rank}</p>
+        <p><strong>Rank:</strong> {team.rankName}</p>
         <p><strong>Voice Chat:</strong> {team.voiceChat ? 'Enabled' : 'Disabled'}</p>
         <p><strong>Slots:</strong> {team.playerAvatars.length} / {team.maxPlayers}</p>
       </div>

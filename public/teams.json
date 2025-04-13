@@ -5,6 +5,7 @@
       "voiceChat": true,
       "gameType": "Competitive",
       "rank": ["/diamondrank.png"],
+      "rankName": "Diamond",
       "players": 3,
       "maxPlayers": 6,
       "playerAvatars": [
@@ -21,6 +22,7 @@
       "voiceChat": false,
       "gameType": "Casual",
       "rank": "/grandmasterrank.png",
+      "rankName": "Grandmaster",
       "players": 1,
       "maxPlayers": 6,
       "playerAvatars": [

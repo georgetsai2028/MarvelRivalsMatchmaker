@@ -6,6 +6,7 @@ export default function Home() {
     <>
     <div className="home-container">
       <h1 className="home-title">🚀 Marvel Rivals Team Finder</h1>
+      <p className="home-subtitle">Sick of instalocking DPS players and always being stuck on tank or support?</p>
       <p className="home-subtitle">Find your perfect squad. Conquer the universe together.</p>
 
       <div className="home-buttons">

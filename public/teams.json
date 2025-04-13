@@ -40,10 +40,14 @@
       "rank": "/goldrank.png",
       "rankName": "Gold",
       "players": 1,
-      "maxPlayers": 3,
+      "maxPlayers": 6,
       "playerAvatars": [
         "/hulk.png",
-        "/peniparker.png"
+        "/peniparker.png",
+        "/magik.png",
+        "/peniparker.png",
+        "/spidey.png"
+
       ]
     },
     {

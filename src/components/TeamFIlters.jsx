@@ -5,7 +5,7 @@ export default function TeamFilters({ onFilter }) {
   const [region, setRegion] = useState('');
   const [gameType, setGameType] = useState('');
   const [rank, setRank] = useState('');
-  const [voiceChat, setVoiceChat] = useState(false);
+  const [voiceChat, setVoiceChat] = useState('');
   const [maxPlayers, setMaxPlayers] = useState('');
 
   const handleFilterChange = () => {
@@ -67,16 +67,20 @@ export default function TeamFilters({ onFilter }) {
       </div>
 
       <div className="filter-row">
-        <div className="filter-item">
+      <div className="filter-item">
           <label htmlFor="voiceChat">Voice Chat:</label>
-          <input
-            type="checkbox"
+          <select
             id="voiceChat"
-            checked={voiceChat}
-            onChange={(e) => setVoiceChat(e.target.checked)}
-            className="checkbox"
-          />
+            value={voiceChat}
+            onChange={(e) => setVoiceChat(e.target.value)}
+            className="select"
+          >
+            <option value="">Select Voice Chat</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
         </div>
+
 
         <div className="filter-item">
           <label htmlFor="maxPlayers">Max Players:</label>

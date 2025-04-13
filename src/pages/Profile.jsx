@@ -3,7 +3,7 @@ import './Profile.css';
 const mockUserData = {
   username: "Puka",
   avatarUrl: "/spidey.png",
-  rank: "Gold",
+  rank: "/oneaboveallrank.png",
   teamsJoined: ["Avengers", "X-Men", "Fantastic Four"],
   achievements: ["🏆 MVP of the Month", "🎖️ Top Scorer"],
   playerStats: {
@@ -22,7 +22,8 @@ export default function Profile() {
         <img className="profile-avatar" src={mockUserData.avatarUrl} alt="User Avatar" />
         <div className="profile-info">
           <p><strong>Username:</strong> {mockUserData.username}</p>
-          <p><strong>Rank:</strong> {mockUserData.rank}</p>
+          <p><strong>Rank:</strong></p>
+           <p><img className='rank' src={mockUserData.rank} alt="Team Rank" /></p>
           <p><strong>Teams Joined:</strong> {mockUserData.teamsJoined.join(', ')}</p>
           <div>
             <h3>🚀 Achievements</h3>

@@ -1,7 +1,7 @@
 import './TeamDetails.css';
 export default function TeamDetails({ rank, players, maxPlayers }) {
   return (
-    <div style={{ fontSize: '16px', color: '#fff' }}>
+    <div style={{ fontSize: '20px', color: '#fff' }}>
       <div className="flex items-center gap-2">
         🏆 Rank:
       </div>

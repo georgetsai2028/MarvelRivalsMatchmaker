@@ -2,8 +2,8 @@ import PieCircles from './PieCircles';
 import TeamInfoBar from './TeamInfoBar';
 import TeamDetails from './TeamDetails';
 
-
-export default function TeamCard({team}){
+export default function TeamCard({ team }) {
+  return (
     <div className="team-card" style={{ display: 'flex', gap: '1rem', border: '1px solid #ccc', padding: '1rem', borderRadius: '10px' }}>
       <PieCircles playerAvatars={team.playerAvatars} maxPlayers={team.maxPlayers} />
       <div className="team-info" style={{ flex: 1 }}>
@@ -11,4 +11,5 @@ export default function TeamCard({team}){
         <TeamDetails rank={team.rank} players={team.playerAvatars.length} maxPlayers={team.maxPlayers} />
       </div>
     </div>
+  );
 }

@@ -8,9 +8,9 @@
       "players": 3,
       "maxPlayers": 6,
       "playerAvatars": [
-        "jeffshark.png",
-        "doctorstrange.png",
-        "avatar3.png"
+        "/doctorstrange.png",
+        "/emmafrost.png",
+        "/ironfist.png"
       ]
     },
     {
@@ -22,7 +22,9 @@
       "players": 1,
       "maxPlayers": 6,
       "playerAvatars": [
-        "avatar4.png"
+        "/captainamerica.png",
+        "/jeffshark.png",
+        "/lunasnow.png"
       ]
     }
   ]

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import TeamCard from '../components/TeamCard';
 import TeamFilters from '../components/TeamFilters'; // Import the filter component
 import './TeamFinder.css'
@@ -41,10 +42,16 @@ export default function TeamFinder() {
       <h1>Team Finder</h1>
       <TeamFilters onFilterChange={handleFilterChange} /> {/* Add the filter component */}
       <div style={{ display: 'grid', gap: '1rem', padding: '1rem' }}>
-        {filteredTeams.map((team) => (
-          <TeamCard key={team.id} team={team} />
-        ))}
-      </div>
+  {filteredTeams.map((team) => (
+    <Link
+      to={`/teams/${team.id}`}
+      key={team.id}
+      style={{ textDecoration: 'none', color: 'inherit' }}
+    >
+      <TeamCard team={team} />
+    </Link>
+  ))}
+</div>
     </>
   );
 }

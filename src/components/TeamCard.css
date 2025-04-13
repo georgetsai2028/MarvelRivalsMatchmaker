@@ -70,3 +70,9 @@
   .team-card button:hover {
     background-color: #8a2be2; /* Hover effect */
   }
+
+  .team-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }

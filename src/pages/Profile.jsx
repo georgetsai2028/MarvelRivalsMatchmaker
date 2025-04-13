@@ -15,6 +15,7 @@ const mockUserData = {
 
 export default function Profile() {
   return (
+    <>
     <div className="profile-container">
       <h1 className="profile-title">👨‍🚀 Puka</h1>
       <div className="profile-card">
@@ -40,5 +41,6 @@ export default function Profile() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -3,6 +3,7 @@ import './Home.css';
 
 export default function Home() {
   return (
+    <>
     <div className="home-container">
       <h1 className="home-title">🚀 Marvel Rivals Team Finder</h1>
       <p className="home-subtitle">Find your perfect squad. Conquer the universe together.</p>
@@ -20,5 +21,6 @@ export default function Home() {
         <p>🌌 Unite. Strategize. Dominate.</p>
       </footer>
     </div>
+    </>
   );
 }

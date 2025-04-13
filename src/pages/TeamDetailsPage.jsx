@@ -26,6 +26,7 @@ export default function TeamDetailsPage() {
 
 
   return (
+    <>
     <div className="team-details-container">
       <h2>{team.name}</h2>
       <div className="team-meta">
@@ -57,5 +58,6 @@ export default function TeamDetailsPage() {
       </div>
 
     </div>
+    </>
   );
 }

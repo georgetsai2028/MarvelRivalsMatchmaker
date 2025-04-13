@@ -24,6 +24,7 @@ export default function CreateTeam() {
   };
 
   return (
+    <>
     <div className="create-team-page">
       <h1>Create Your Team</h1>
       <form onSubmit={handleSubmit}>
@@ -106,5 +107,6 @@ export default function CreateTeam() {
         <button type="submit">Create Team</button>
       </form>
     </div>
+    </>
   );
 }

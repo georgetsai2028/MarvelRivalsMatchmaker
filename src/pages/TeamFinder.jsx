@@ -28,7 +28,7 @@ export default function TeamFinder() {
       return (
         (region ? team.region === region : true) &&
         (gameType ? team.gameType === gameType : true) &&
-        (rank ? team.rank === rank : true) &&
+        (rank ? team.rankName === rank : true) &&
         (voiceChat === false || (voiceChat === true && team.voiceChat)) &&
         (maxPlayers ? team.players <= maxPlayers : true)
       );

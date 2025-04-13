@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="home-buttons">
         <Link to="/teams" className="home-btn">Find a Team</Link>
-        <Link to="/create" className="home-btn">Create a Team</Link>
+        <Link to="/create-team" className="home-btn">Create a Team</Link>
         <Link to="/profile" className="home-btn">Your Profile</Link>
       </div>
       <div className="stars"></div>

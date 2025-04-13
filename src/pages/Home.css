@@ -1,0 +1,51 @@
+
+.home-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #fff;
+  background: radial-gradient(ellipse at center, #0b0c2a 0%, #000 100%);
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #8a2be2;
+  text-shadow: 0 0 8px #fff;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #ccc;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.home-btn {
+  background-color: #6a0dad;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #8a2be2;
+}
+
+.home-footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #888;
+}

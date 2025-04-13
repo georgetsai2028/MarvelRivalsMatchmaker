@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import TeamCard from '../components/TeamCard';
 import TeamFilters from '../components/TeamFilters'; // Import the filter component
+import './TeamFinder.css'
 
 export default function TeamFinder() {
   const [teamData, setTeamData] = useState([]);

@@ -47,7 +47,7 @@ export default function TeamDetailsPage() {
 
       <div className="description">
         <h3>About this Team</h3>
-        <p>{team.description || "This team hasn't added a description yet."}</p>
+        <p>{team.description || "Ready to take down Thanos!"}</p>
       </div>
 
       <div className="join-team-container">

@@ -5,8 +5,8 @@ export default function PieCircles({ playerAvatars, maxPlayers }) {
           <div
             key={i}
             style={{
-              width: '50px',
-              height: '50px',
+              width: '100px',
+              height: '100px',
               borderRadius: '50%',
               overflow: 'hidden',
               border: '2px solid #555',

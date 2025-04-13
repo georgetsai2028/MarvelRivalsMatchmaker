@@ -68,14 +68,18 @@ export default function CreateTeam() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="maxPlayers">Max Players</label>
-          <input
-            type="number"
+        <label htmlFor="maxPlayers">Max Players</label>
+        <select
             id="maxPlayers"
             value={maxPlayers}
             onChange={(e) => setMaxPlayers(e.target.value)}
             required
-          />
+        >
+            <option value="">Select max players</option>
+            {[1, 2, 3, 4, 5, 6].map((num) => (
+            <option key={num} value={num}>{num}</option>
+            ))}
+        </select>
         </div>
 
         <div className="form-group">

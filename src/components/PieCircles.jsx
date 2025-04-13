@@ -1,6 +1,6 @@
 export default function PieCircles({ playerAvatars, maxPlayers }) {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', gap: '8px' }}>
         {[...Array(maxPlayers)].map((_, i) => (
           <div
             key={i}

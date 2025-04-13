@@ -1,0 +1,38 @@
+.team-card {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pie-circles {
+    display: flex; /* Align avatars in a row */
+    gap: 0.5rem;
+  }
+  
+  .pie-circles img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .team-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem; /* Space between circles and player info */
+  }
+  
+  .team-info p {
+    margin: 0;
+  }

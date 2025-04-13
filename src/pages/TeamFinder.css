@@ -6,3 +6,30 @@ body {
     height: 100vh; /* Ensure the background covers the entire viewport height */
     margin: 0; /* Remove default margin */
   }
+
+  .join-team-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .join-team-btn {
+    background-color: #00ccff;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .join-team-btn:hover {
+    background-color: #0088aa;
+    transform: scale(1.05);
+  }
+  
+  .join-team-btn:active {
+    background-color: #005f7f;
+  }

@@ -15,7 +15,15 @@ export default function TeamDetailsPage() {
       });
   }, [id]);
 
+  const handleJoinTeam = () => {
+    // For now, we'll just log and redirect.
+    alert(`You have joined ${team.name}!`);
+    
+  };
+
   if (!team) return <p>Loading team data...</p>;
+
+
 
   return (
     <div className="team-details-container">
@@ -41,6 +49,13 @@ export default function TeamDetailsPage() {
         <h3>About this Team</h3>
         <p>{team.description || "This team hasn't added a description yet."}</p>
       </div>
+
+      <div className="join-team-container">
+        <button className="join-team-btn" onClick={handleJoinTeam}>
+          Join Team
+        </button>
+      </div>
+
     </div>
   );
 }

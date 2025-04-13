@@ -1,5 +1,5 @@
 body {
-    background-image: url('/public/galacta2.png'); /* Use the correct path */
+    background-image: url('/galacta2.png'); /* Use the correct path */
     background-size: cover; /* Cover the entire body area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */

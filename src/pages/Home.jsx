@@ -12,6 +12,9 @@ export default function Home() {
         <Link to="/create" className="home-btn">Create a Team</Link>
         <Link to="/profile" className="home-btn">Your Profile</Link>
       </div>
+      <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
 
       <footer className="home-footer">
         <p>🌌 Unite. Strategize. Dominate.</p>

@@ -1,5 +1,5 @@
 .env
-
+/backend
 # Logs
 logs
 *.log
@@ -9,7 +9,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/backend./env
 
 node_modules
 dist

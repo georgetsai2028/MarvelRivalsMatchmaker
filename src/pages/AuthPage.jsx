@@ -39,10 +39,35 @@ export default function AuthPage(){
 
     return (
         <div>
-            <h1>{isLogin ? 'Login' : 'Sign Up' }</h1>
-            <form onSubmit={handleSubmit}> 
-                
-            </form>
-        </div>
+          <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
+      <form onSubmit={handleSubmit}>
+        {!isLogin && (
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            onChange={handleChange}
+            required
+          />
+        )}
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          onChange={handleChange}
+          required
+        />
+        <button type="submit">{isLogin ? 'Login' : 'Sign Up'}</button>
+      </form>
+      <p onClick={() => setIsLogin(!isLogin)}>{isLogin ? 'Need an account? Sign up' : 'Have an account? Log in'} </p>
+
+      </div>
     )
 }

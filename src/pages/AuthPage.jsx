@@ -38,7 +38,7 @@ export default function AuthPage(){
     }
 
     return (
-        <div>
+        <div className="formDiv">
           <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
         {!isLogin && (

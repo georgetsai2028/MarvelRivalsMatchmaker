@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './AuthPage.css'
 
 export default function AuthPage(){
     const [isLogin, setIsLogin] = useState(true); //toggles login/signup
@@ -38,7 +39,8 @@ export default function AuthPage(){
     }
 
     return (
-        <div className="formDiv">
+    <div className="auth-container">
+        <div className="auth-box">
           <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
         {!isLogin && (
@@ -68,6 +70,7 @@ export default function AuthPage(){
       </form>
       <p onClick={() => setIsLogin(!isLogin)}>{isLogin ? 'Need an account? Sign up' : 'Have an account? Log in'} </p>
 
+      </div>
       </div>
     )
 }

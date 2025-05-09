@@ -21,7 +21,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/teams/:id" element={<TeamDetailsPage />} />
         <Route path="/create-team" element={<CreateTeam />} />
-  
+        <Route path="/auth-page" element={<AuthPage/>} />
       </Routes>
     </>
   );

@@ -37,6 +37,13 @@ export default function AuthPage(){
         };
         
     }
+    const handleSignOut = async () => {
+       //removes token from storage or cookies
+        localStorage.removeItem('token');
+        
+        //redirect user somewhere
+        window.location.href = '/auth-page';  // Or wherever you want to redirect after sign-out
+    };
 
     return (
     <div className="auth-container">

@@ -13,7 +13,7 @@ export default function AuthPage(){
         e.preventDefault();
 
         //conditional logic
-        const endpoint = isLogin ? '/api/v1/auth/sign-in' : 'api/v1/auth/sign-up'; //if login true go to sign-in route, else go to signup route
+        const endpoint = isLogin ? 'http://localhost:3030/api/v1/auth/sign-in' : 'http://localhost:3030/api/v1/auth/sign-up'; //if login true go to sign-in route, else go to signup route
         const payload = isLogin ? {email: formData.email, password: formData.password} : formData; //if signing up send full form data in payload
 
         //try catch block to send req
